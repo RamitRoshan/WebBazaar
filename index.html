@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <img src="Meubel House logo.png" alt="Meubel">
+  <img src="skinCLinicMarmetologo.png" alt="Marmeto Logo">
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+  <img src="search-icons.png" alt="search">
+  <img src="heart-icons.png" alt="heart icon">
+  <img src="cart-icons.png" alt="cart">
+
+</header>
+
+<div class="breadcrumb">
+  <img src="Meubel House logo.png" alt="Meubel House">
+  <h1>C a r t</h1>
+  <a href="#"><strong>Home</strong></a> &nbsp;<strong>&gt;</strong>&nbsp; Cart
+</div>
+
+
+<div class="cart">
+  <div class="cart-content">
+    <!-- Cart Table -->
+    <table class="cart-table">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- Product column -->
+          <td style="display: flex; align-items: center; gap: 10px; text-align: left;">
+            <img class="sofa-image" src="https://cdn.shopify.com/s/files/1/0883/2188/4479/files/Asgaardsofa3.png?v=1728384481" 
+                 alt="Asgaard sofa" 
+                 style="width: 100px; height: auto;">
+            <span>Asgaard Sofa</span>
+          </td>
+    
+          <!-- Price column -->
+          <td style="text-align: center;">Rs. 250,000.00</td>
+    
+          <!-- Quantity column -->
+          <td style="text-align: center;">
+            <input type="number" value="1" min="1" class="quantity-input" 
+                   style="width: 50px; text-align: center;">
+          </td>
+    
+          <!-- Subtotal and Delete column -->
+          <td style="text-align: center; display: flex; align-items: center; justify-content: center; gap: 10px; position: relative; bottom: 25px;">
+            <span>Rs. 250,000.00</span>
+            <img src="delete.png" alt="Delete">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <div class="cart-totals">
+      <h3>Cart Totals</h3>
+      <div class="totals-row">
+        <span>Subtotal</span>
+        <span class="total-subtotal">Rs. 250,000.00</span>
+      </div>
+      <div class="totals-row">
+        <span>Total</span>
+        <span class="total-price">Rs. 250,000.00</span>
+      </div>
+      <button class="checkout-btn">Check Out</button>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="cart">
+  <table class="cart-table">
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Subtotal</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img src="https://cdn.shopify.com/s/files/1/0883/2188/4479/files/Asgaardsofa3.png?v=1728384481" alt="Asgaard sofa"> Asgaard Sofa</td>
+        <td>Rs. 250,000.00</td>
+        <td>
+          <input type="number" value="1" min="1" class="quantity-input">
+        </td>
+        <td class="subtotal">Rs. 250,000.00</td>
+        <td><img src="delete.png"></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="cart-totals">
+    <h3>Cart Totals</h3>
+    <div class="totals-row">
+      <span>Subtotal</span>
+      <span class="total-subtotal">Rs. 250,000.00</span>
+    </div>
+    <div class="totals-row">
+      <span>Total</span>
+      <span class="total-price">Rs. 250,000.00</span>
+    </div>
+    <button class="checkout-btn">Check Out</button>
+  </div>
+</div> -->
+
+<div class="features">
+  <div>
+    <img src="trophy.png" alt="High Quality">
+    <div class="features-inner">
+      <h4>High Quality</h4>
+      <p>crafted from top materials</p>
+    </div>
+  </div>
+  <div>
+    <img src="guarantee.png" alt="Warranty Protection">
+    <div class="features-inner">
+    <h4>Warranty Protection</h4>
+    <p>Over 2 years</p>
+    </div>
+  </div>
+  <div>
+    <img src="shipping.png" alt="Free Shipping">
+    <div class="features-inner">
+    <h4>Free Shipping</h4>
+    <p>Order over 150 $</p>
+    </div>
+  </div>
+  <div>
+    <img src="support.png" alt="24/7 Support">
+    <div class="features-inner">
+    <h4>24 / 7 Support</h4>
+    <p>Dedicated support</p>
+    </div>
+  </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
