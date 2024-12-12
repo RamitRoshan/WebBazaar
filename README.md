@@ -16,9 +16,8 @@ This is a simple cart page implementation that displays a product and allows use
 - **Cart Footer**: Includes cart totals like subtotal and total price.
 
 ## 🎨 Screenshots:
+![MarmetoSS](https://github.com/user-attachments/assets/582a27d3-b37d-4fab-8ebc-1f1c7dc91465 )
 
-![Cart Page](![MarmetoSS](https://github.com/user-attachments/assets/582a27d3-b37d-4fab-8ebc-1f1c7dc91465 )
-)
 
 ## 🛠️ Technologies Used:
 
@@ -28,4 +27,4 @@ This is a simple cart page implementation that displays a product and allows use
 - Responsive design with Flexbox and CSS Grid
 
 ## Live Demo::
-Check out live demo here :
+Check out live demo here : [WebBazaar](https://web-bazaar-ten.vercel.app/)
